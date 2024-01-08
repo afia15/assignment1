@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: #FFF;
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.banner {
+    padding: 150px 240px;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+.banner-item {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.banner-title {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    color: #FFF;
+    margin-top: 10px;
+
+}
