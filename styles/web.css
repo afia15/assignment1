@@ -81,7 +81,7 @@ main section {
 }
 
 .item-pic {
-    width: 700px;
+    width: 1150px;
     height: 400px;
     padding-right: 50%;
 
@@ -291,7 +291,7 @@ hr.new {
 
 .email input {
     width: 200px;
-    height: 30px;
+    height: 35px;
     background: #FFF;
 }
 
@@ -303,3 +303,19 @@ hr.new {
     background: #F00;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
