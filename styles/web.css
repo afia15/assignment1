@@ -41,6 +41,7 @@ body {
 main {
     max-width: 800px;
     margin: 0 auto;
+
 }
 
 main section {
@@ -83,7 +84,7 @@ main section {
     width: 700px;
     height: 400px;
     padding-right: 50%;
- 
+
 }
 
 .btn-primary {
@@ -96,15 +97,25 @@ main section {
 }
 
 .rectangle {
-    padding-left: 20%;
-    background-image: url('../resources/Vectorrr.png') , url('../resources/Group\ 70.png');
+    padding-left: 30%;
+    background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
-    margin-top: 50px 150px;
+    margin-top: 50px 100px;
     justify-content: space-between;
-    background-position: top left, bottom right ;
-    width: 1020px;
+
+    width: 820px;
     height: 400px;
-  
+
+}
+
+#r1 {
+    display: flex;
+    background-position: left;
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-bottom: 100%;
+    padding: 0.008px 0px 0px 0px;
 
 }
 
@@ -121,6 +132,137 @@ main section {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
-    
+
 
 }
+
+.text-primary {
+    color: #F00;
+
+}
+
+.section-place {
+    color: #070211;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-date {
+    color: #070211;
+    text-align: center;
+    font-size: 18px;
+}
+
+.section-time {
+    color: #070211;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.btn-join {
+
+    margin: auto;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+
+
+
+}
+
+.about {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 80px 0;
+}
+
+.r-column {
+
+    justify-content: space-between;
+    gap: 50px;
+    padding: 13opx 200px;
+    width: 50%;
+
+}
+
+.item-institute {
+    color: #F00;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.item-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.item-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 393px;
+}
+
+#section-i {
+
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+#item-i {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #070211;
+    margin: 0;
+    padding: 80px 40px 250px;
+}
+
+.footer-text {
+    color: #FFF;
+    display: flex;
+
+    font-size: 20px;
+    font-weight: 250;
+    padding: 30px;
+}
+
+#f1 {
+    margin-left: auto;
+}
+
+hr.new {
+    width: 1320px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-link a {
+    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
